@@ -1,0 +1,46 @@
+.hello{
+    
+    display: flex;
+    justify-content:space-between;
+    color:#0e49b5;
+    z-index: -10;
+    background-color:#a7c5eb;
+    box-shadow: 0 10px 40px rgba(179, 189, 240, 0.8);
+    
+}
+.hellos{
+    display: flex;
+    margin-left: 10px;
+}
+.hellos >h1{
+    font-size:30px;
+ }
+ .hellos > p {
+     font-size: 20px;
+     margin-top: 30px;
+     font-weight: bold;
+ }
+.date{
+    display: flex;
+}
+.date > p{
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: 50px;
+}
+.datebox{
+    margin: 20px 60px;
+    border: 1px solid blue;
+    height: 30px
+}
+.datebox > p{
+    margin: 0 60px;
+    padding-top: 3px;
+}
+.img > img{
+    margin-top: 70px;
+    width: 90%;
+    height: 450px;
+    margin-left: 60px;
+    object-fit: contain;
+}
